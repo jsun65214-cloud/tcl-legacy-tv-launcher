@@ -1,0 +1,23 @@
+name: 机型反馈或问题
+description: 报告实际设备上的问题或兼容结果
+title: "[机型反馈] "
+body:
+  - type: textarea
+    id: device
+    attributes:
+      label: 设备与系统
+      description: 产品型号、Android版本/API、固件版本；不需要序列号或注册码。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤与现象
+      description: 说明遥控、桌面、声音或性能问题，注明是否来自HDMI机顶盒。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 检查结果
+      description: 可提供脱敏后的CPU、内存或错误摘要；无需上传整份私人备份。

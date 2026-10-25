@@ -1,0 +1,26 @@
+# Generated files and local signing material
+/build/
+/dist/
+/.local/
+*.apk
+*.dex
+*.class
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.zip
+*.log
+.env
+.env.*
+local.properties
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+# Keep private device snapshots out of this public source project
+备份/
+操作记录/
+设备资料/
+.codex-remote-attachments/
